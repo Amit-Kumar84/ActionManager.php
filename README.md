@@ -147,7 +147,7 @@ else{
 			file_put_contents($FileName,json_encode($Content,true));
 			$Data = "\nActive: ".$Actived."\nData: ".$Date."\nPassword: ".$Password."\nAdmin: ".(string)$Level;
 			file_put_contents("LogCast.txt",dark74_encode($LogCast."\n"."[".$Hour."]\n"."Action: EDIT\nUsername: ".$Username.$Data."\nAdmin: ".$Owner));
-ExitAlert("Sucess ✅");
+ExitAlert("Sucess ☑️");
 			}
 			
 			else{
